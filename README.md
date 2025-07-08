@@ -52,5 +52,5 @@ A full-featured News Application built with the MERN Stack (MongoDB, Express.js,
 
 ---
 
-## 📁 Folder Structure
+
 
