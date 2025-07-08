@@ -1,0 +1,51 @@
+/* client/src/components/Navbar.css */
+
+/* Font: add this in public/index.html <head>:
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+*/
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+}
+
+.navbar-brand .brand-text {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+.navbar-dark .nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #0d6efd !important;
+  text-decoration: underline;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.btn-outline-danger {
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .btn-outline-danger {
+    margin-top: 10px;
+  }
+}

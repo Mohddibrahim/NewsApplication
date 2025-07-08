@@ -1,0 +1,18 @@
+.dummy-section h4 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.progress {
+  height: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  line-height: 20px;
+  text-align: center;
+}
